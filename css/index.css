@@ -1,0 +1,56 @@
+body {
+    padding-top: 200px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+}
+
+#profile-photo {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+#name {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+#location {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 70px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    color: #777;
+}

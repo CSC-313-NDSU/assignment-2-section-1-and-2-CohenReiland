@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Cohen Reiland | Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/contact.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <header>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#navbarCollapse"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contact Information -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h1 id="contact-title">Contact Me</h1>
+          <h3 id="contact-description">
+            I'm always excited to learn, grow, and contribute. Whether you want
+            to discuss a project, collaborate on something new, or just connect,
+            feel free to reach out!
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Buttons -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-4">
+            <a
+              id="github-button"
+              class="btn btn-lg"
+              href="https://github.com/CohenReiland"
+            >
+              GitHub
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a
+              id="linkedin-button"
+              class="btn btn-lg"
+              href="https://www.linkedin.com/in/cohen-reiland"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email Address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email-input"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput2">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name-input"
+            placeholder="Your Name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="message-input" rows="4"></textarea>
+        </div>
+        <a
+          id="email-button"
+          href="mailto:cohen200521@gmail.com"
+          class="btn btn-m btn-primary"
+          >Submit</a
+        >
+      </form>
+    </section>
+    <footer>Cohen Reiland. All rights reserved.</footer>
+  </body>
+</html>
