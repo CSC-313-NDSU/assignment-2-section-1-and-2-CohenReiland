@@ -1,5 +1,5 @@
 body {
-    padding-top: 120px;
+    padding-top: 90px;
 }
 
 .navbar-nav {
@@ -37,7 +37,7 @@ body {
     font-size: 18px;
     text-align: center;
     color: #fff;
-    background-color: rgb(50, 50, 50);
+    background-color: #323232;
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -49,6 +49,14 @@ body {
     padding: 20px;
     border-radius: 5px;
     padding-top: 30px;
+}
+
+#email-button {
+    display: block;
+    width: 150px;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+    background-color: #323232;
 }
 
 footer {
