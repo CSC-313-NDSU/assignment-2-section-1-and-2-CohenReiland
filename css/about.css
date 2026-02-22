@@ -1,0 +1,88 @@
+body {
+    padding-top: 150px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+}
+
+#about {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#about-discription {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#hobbies {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#hobbies-list {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+#movies {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#movies-list {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+}
+
+#imageCarousel {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#schedule {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
+#schedule-table {
+    width: 60%;
+    margin: 0 auto;
+}
+
+footer {
+    margin-bottom: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    color: #777;
+}
